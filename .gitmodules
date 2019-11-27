@@ -1,0 +1,6 @@
+[submodule "cozmo_ros2_nosdk"]
+	path = cozmo_ros2_nosdk
+	url = https://github.com/solosito/cozmo_ros2_nosdk.git
+[submodule "vision_opencv"]
+	path = vision_opencv
+	url = https://github.com/solosito/vision_opencv.git
