@@ -4,8 +4,13 @@
 ### ROS2
 This repository was tested using [ROS 2 Eloquent Elusor](https://github.com/ros2/ros2/releases/tag/release-eloquent-20191122) (follow [official documentation](https://index.ros.org/doc/ros2/Installation/Eloquent/) for installation)
 
-### pycozmo
-[Link to official site installation](https://github.com/zayfod/pycozmo#installation)
+### PyCozmo
+[Link to official site](https://github.com/zayfod/pycozmo)
+
+Currently using a forked version.
+
+For installing it follow the steps from [Clone and build](https://github.com/solosito/cozmo_ros2_ws#clone-and-build)
+
 
 ### opencv-python
 `python3 -m pip install opencv-python`
@@ -16,6 +21,12 @@ This repository was tested using [ROS 2 Eloquent Elusor](https://github.com/ros2
 
 1. Clone this repo  
 `git clone --recursive https://github.com/solosito/cozmo_ros2_ws.git ~/cozmo_ros2_ws/src/.`
+
+1. Install PyCozmo local version
+```shell
+cd ~/cozmo_ros2_ws/src/pycozmo
+python3 -m pip install -e .
+```
 
 1. Build the code  
 Go to the workspace folder  
